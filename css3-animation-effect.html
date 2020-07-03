@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+    }
+  </style>
+  <link rel="stylesheet" href="./animation-effect.css">
+</head>
+<body style="perspective: 1000px;">
+  <div class="cube show-default">
+    <div class="cube-face is-front">
+      <img src="./1.png" />
+    </div>
+    <div class="cube-face is-back">
+      <img src="./2.png" />
+    </div>
+    <div class="cube-face is-right">
+      <img src="./3.png" />
+    </div>
+    <div class="cube-face is-left">
+      <img src="./4.png" />
+    </div>
+    <div class="cube-face is-top">
+      <img src="./5.png" />
+    </div>
+    <div class="cube-face is-bottom">
+      <img src="./6.png" />
+    </div>
+  </div>
+
+  <script>
+    // let cube = document.querySelector('.cube')
+    // setInterval(() => {
+    //   cube.classList.toggle('show-default')
+    //   cube.classList.toggle('show-left')
+    // }, 2000)
+  </script>
+</body>
+</html>
